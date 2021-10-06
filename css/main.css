@@ -126,11 +126,11 @@ textarea {
    }
 
    img {
-
+     width: 100%;
    }
 
    figure {
-
+     margin: 0;
    }
 
    address {
@@ -141,11 +141,6 @@ textarea {
      width: 90%;
      margin: 50px 0;
    }
-
-
-
-
-
 
    /* -------------------- Base Header - Footer Styles -------------------- */
 
@@ -168,6 +163,14 @@ textarea {
      align-items: center;
      flex-flow: row wrap;
      margin: 0;
+   }
+
+   header figure{
+     width: 60%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-flow: row wrap;
    }
 
    .header-divider {
@@ -236,6 +239,10 @@ textarea {
    /* Hero Area */
 
    .hero-area {
+     background: url('img/image.jpg') center no-repeat;
+     background-size: cover;
+     background-position: center;
+     min-height: 500px;
      display: flex;
      justify-content: center;
      flex-flow: row wrap;
