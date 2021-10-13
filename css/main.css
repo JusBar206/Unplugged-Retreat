@@ -94,11 +94,14 @@ textarea {
      font-family: 'Open Sans', sans-serif;
      font-size: 1em;
      text-align: left;
+     color: #e2e3ed;
    }
 
    ul,
    ol {
      list-style-type: none;
+     margin: 0;
+     padding 0;
    }
 
    a {
@@ -110,6 +113,7 @@ textarea {
      font-family: 'Open Sans', sans-serif;
      font-size: 1.875em;
      font-weight: 500;
+     margin: 0;
    }
 
    h3,
@@ -200,10 +204,10 @@ textarea {
    header nav ul li {
   font-size: 1.125em;
 
-   footer {
-     text-align: center;
-     flex-direction: column;
-   }
+  footer {
+    text-align: center;
+    flex-direction: column;
+  }
 
    footer p {
      margin: 0;
@@ -327,7 +331,7 @@ input[type=button] {
   font-size: 3.75em;
   margin-bottom: 40px;
 
-   .features p {
+  .features p {
      text-align: center;
      margin: 0;
    }
@@ -599,6 +603,10 @@ input[type=button] {
        width: 62%;
      }
 
+     .features i {
+    margin-bottom: 30px;
+  }
+
      /* Reviews */
      .reviews article {
        display: flex;
@@ -745,7 +753,7 @@ input[type=button] {
 
    aside .content-wrapper .form-description,
    aside .content-wrapper .form {
-     width: 40%;
+     width: 30%;
    }
 
    .form-description p {
